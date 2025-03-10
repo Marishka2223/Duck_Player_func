@@ -92,7 +92,7 @@ body{
                                 <button type="submit" class="btn btn-primary" style="background-color: rgb(245, 188, 82); border: 1px solid rgb(245, 188, 82);">
                                     {{ __('Зарегистрироваться') }}
                                 </button>
-                                <a class="btn btn-link" href="{{ route('login') }}">
+                                <a class="btn btn-link" style="color: orange;" href="{{ route('login') }}">
                                     {{__('Войти в аккаунт')}}
                                 </a>
                             </div>
