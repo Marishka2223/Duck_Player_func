@@ -74,14 +74,6 @@
         <div class="subscription-container">
             @foreach($subscriptions as $subscription)
                 <div class="subscription-item">
-                    <!-- Картинка в зависимости от title -->
-                    @if($subscription->title == 'Duck Standart')
-                        <img src="{{ asset('images/duck_standart.png') }}" alt="Duck Standart">
-                    @elseif($subscription->title == 'Duck+')
-                        <img src="{{ asset('images/duck_plus.png') }}" alt="Duck+">
-                    @elseif($subscription->title == 'Duck PREMIUM')
-                        <img src="{{ asset('images/duck_premium.png') }}" alt="Duck PREMIUM">
-                    @endif
 
                     <h2>{{ $subscription->title }}</h2>
                     <p>{{ $subscription->content }}</p>

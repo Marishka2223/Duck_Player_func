@@ -43,5 +43,5 @@
         </select>
 </div>
 
-<input type="submit" class="btn btn-primary" value="Сохранить">
+<input type="submit"  style="background-color: orange; border: 1px solid orange;" class="btn btn-primary" value="Сохранить">
 </form>
