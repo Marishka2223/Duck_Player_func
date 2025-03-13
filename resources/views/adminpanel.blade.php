@@ -101,6 +101,14 @@
     </div>
     <br><br>
     <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
     <footer class="footer" style=" display: flex;
     justify-content: flex-end;">
         <div class="social-links">
