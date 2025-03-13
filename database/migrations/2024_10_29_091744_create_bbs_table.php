@@ -20,6 +20,7 @@ return new class extends Migration
             ->onDelete('cascade');
             $table->timestamps();
             $table->index('created_at');
+            $table->string('status', 255);
         });
     }
 
